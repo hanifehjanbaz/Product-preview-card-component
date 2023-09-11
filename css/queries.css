@@ -1,0 +1,36 @@
+/* max-width : 375px */
+@media screen and (max-width: 23.4em) {
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        margin: 2rem 1.5rem;
+    }
+
+    .section-product {
+        padding: 2rem 2rem;
+    }
+
+    .subheading-product {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-heading {
+        font-size: 3.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-text {
+        margin-bottom: 1.4rem;
+    }
+
+    .price-container {
+        margin-bottom: 1.5rem;
+    }
+
+    .price {
+        font-size: 3rem;
+    }
+
+}
